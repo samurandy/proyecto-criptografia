@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",           
+    "module": "commonjs",      
+    "checkJs": true,           
+    "allowJs": true,           
+    "baseUrl": "./",            
+    "paths": {
+      "*": ["node_modules/*"]
+    }
+  },
+  "include": ["./**/*"],
+  "exclude": ["node_modules"]
+}
